@@ -13,3 +13,26 @@
     font-size: 30px;
     text-align: center;
 }
+
+.container h2 {
+    font-family: 'Georgia' , serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #ffffff;
+    grid-column: 1 / -1;
+    text-align: center;
+}
+
+.introduccion h1 {
+    font-family: 'Georgia' , serif;
+    color: #1a1a1a;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+p {
+    font-family: 'Arial', sans-serif;
+    color: #555555;
+    font-size: 1rem;
+    line-height: 1.6;
+}
