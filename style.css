@@ -1,15 +1,109 @@
+.body {
+    background-color: #e3e3e3;
+}
+
 .container {
     display: grid;
     grid-template-columns: auto auto auto;
-    background-color: dodgerblue;
+    background-color: #F2D980;
     padding: 10px;
     gap: 20px;
+    border-radius: 12px;
+    justify-content: center;
 }
 
-.container div {
-    background-color: #f1f1f1;
-    border: 1px solid black;
+.mc, .mu, .ar, .ch, .li, .to {
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .mc {
+    width: 400px;
+    background-color: #98c2e8;
     padding: 10px;
-    font-size: 30px;
     text-align: center;
+    border-radius: 8px;
+}
+
+.container .mu {
+    width: 400px;
+    background-color: #b42024;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.container .ar {
+    width: 400px;
+    background-color: #dc0001;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.container .ch {
+    width: 400px;
+    background-color: #004495;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.container .li {
+    width: 400px;
+    background-color: #a5010c;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.container .to {
+    width: 400px;
+    background-color: #132257;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.container h2 {
+    font-family: 'Georgia' , serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #ffffff;
+    grid-column: 1 / -1;
+    text-align: center;
+}
+
+.container h3 {
+    font-family: 'Georgia' , serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.container p {
+    color:#e0e0e0;
+}
+
+.container img {
+    width: auto;
+    height: 150px;
+
+}
+
+.introduccion h1 {
+    font-family: 'Georgia' , serif;
+    color: #1a1a1a;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+p {
+    font-family: 'Arial', sans-serif;
+    color: #555555;
+    font-size: 1rem;
+    line-height: 1.6;
 }
